@@ -15,6 +15,14 @@ body {
     background-color: var(--color2);
 }
 
+input[type="radio"]:checked + img {
+    border: solid 3px black;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -54,9 +62,13 @@ footer {
 }
 
 
-h2 {
-    font-size: 1.8rem;
+h4 {
+    font-size: 1.2rem;
     font-weight: bold;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 .gutter-right {

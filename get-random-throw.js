@@ -15,4 +15,6 @@ export function getRandomThrow() {
     return randomThrow;
 }
 
-//export function checkResult(player,computer) => 
+// export function checkResult(player,computer) {
+
+// }

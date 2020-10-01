@@ -21,24 +21,33 @@
     </header>
     <main>
         <section class="main-section">
-        <section id="intro">
-            Welcome to Rock Paper Scissors! Here are the rules:
-            <ol>
-                <li>Choose one option, either rock, paper or scissors.</li>
-                <li>Paper covers rock.</li>
-                <li>Rock smashes scissors.</li>
-                <li>Scissors cut paper.</li>
-                <li>Two of the same equals a draw.</li>
-                <li>No one said it would make sense! Your goal is to beat the computer.</li>
-            </ol>
-        </section>
-        <input type="radio" name="gamePlay" value="rock" checked>
-        <div>Rock</div>
-        <input type="radio" name="gamePlay" value="paper"> 
-        <div>Paper</div>
-        <input type="radio" name="gamePlay" value="scissors">
-        <div>Scissors</div>
-        <button id="submit-button">En Garde!</button>
+            <section id="intro">
+                <h4>Welcome to Rock Paper Scissors!</h4>
+                <p>
+                    All you have to do is choose one option, either rock, paper or scissors.
+                        <ul>
+                            <li>Paper covers rock.</li>
+                            <li>Rock smashes scissors.</li>
+                            <li>Scissors cut paper.</li>
+                            <li>Two of the same equals a draw.</li>
+                        </ul>
+                </p>
+            </section>
+            <div>
+                <label>
+                    <input type="radio" name="gamePlay" value="rock" checked>
+                    <img src="./assets/rock-image.png">
+                </label>
+                <label>
+                    <input type="radio" name="gamePlay" value="paper">
+                    <img src="./assets/paper-image.png">
+                </label>
+                <label>
+                    <input type="radio" name="gamePlay" value="scissors">
+                    <img src="./assets/scissors-image.png">
+                </label>
+            </div>
+        <button id="submit-button">Roshambo</button>
         <div>
             <span id="results"></span>
         </div>
